@@ -1,15 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-}
+
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 main {
-    padding: 20px;
+    padding: 100px;
 }
 
 section {
@@ -22,18 +25,46 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
 }
-
-/* Layout */
 
 body {
     font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
 	color:#2a3845;
 	margin:0;
 	padding:0;
 	background:#FFFFFF;
+    background-image: url("pexels-ovan-62693.jpg");
 }
-
+.about-me {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.skills {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.work-exp {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.project {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.elevation {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 p {
 	margin:0;
 	padding:0;
@@ -52,7 +83,7 @@ p {
 
 #bg {
 	height:36px;
-	background:#FFFFFF;
+	/* background:#FFFFFF; */
 }
 
 #main-content {
@@ -78,11 +109,11 @@ p {
 	width:218px;
 	margin:0 auto;
 	padding:10px 25px;
-	background:#FFFFFF;
+	/* background:#FFFFFF; */
 }
 
 #footer {
-	background:#32cd32;
+	/* background:#32cd32; */
 	border-top:1px solid #f0e9eb;
 	padding:10px 15px;
 	clear:both;
@@ -93,7 +124,7 @@ p {
 a:visited, a:link {
 	color:#a43b55;
 	text-decoration:underline;
-	background:none;
+	/* background:none; */
 }
 
 a:hover {
@@ -106,6 +137,9 @@ h1 {
 	color:#f4eff0;
 	margin:0 0 10px;
 	padding-bottom:10px;
+    justify-content: center;
+    display: flex;
+    position: center;
 	font:normal 17px Georgia, serif;
 	border-bottom:1px solid #efece7;
 }
@@ -119,10 +153,14 @@ h2 {
 }
 
 h3 {
-	color:#7a2e40;
+    color: #478fd6;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
 	margin:10px 0;
 	padding-bottom:10px;
-	font:bold 14px Arial, Helvetica, sans-serif;
+	font:normal 14px Arial, Helvetica, sans-serif;
 	border-bottom:1px solid #efece7;
 }
 
@@ -133,13 +171,13 @@ ul {
 }
 
 .box {
-	background:#f7f7f7;
+	/* background:#f7f7f7; */
 	border:1px solid #f0e9eb;
 	padding:15px;
 }
 
 #nav {
-	background:#32cd32;
+	/* background:#32cd32; */
 	padding:10px 20px;
 	text-align:right;
 	color:#f6dde3;
