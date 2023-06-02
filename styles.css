@@ -43,28 +43,45 @@ body {
     background-image: url("pexels-ovan-62693.jpg");
 }
 .about-me {
-    background-color: #ffffff;
+    background-color: #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+}
+.education {
+    background-color: #dfdfdf;
     padding: 20px;
     border-radius: 5px;
 }
 .skills {
-    background-color: #ffffff;
+    background-color: #dfdfdf;
     padding: 20px;
     border-radius: 5px;
 }
+.CV {
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+}
 .work-exp {
-    background-color: #ffffff;
+    background-color: #dfdfdf;
     padding: 20px;
     border-radius: 5px;
 }
 .project {
-    background-color: #ffffff;
+    background-color: #dfdfdf;
     padding: 20px;
     border-radius: 5px;
 }
 .elevation {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 p {
 	margin:0;
 	padding:0;
@@ -202,3 +219,20 @@ ul {
 	font:normal 18px Georgia, serif;
 	color:#fa7393;
 }
+
+#profile_wrapper {
+    position: relative;
+  }
+  
+  #profile_wrapper:after {
+    content: "";
+  
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    right: 0;
+  
+    background: white;
+    z-index: 0;
+  }
